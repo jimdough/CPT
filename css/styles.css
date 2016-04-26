@@ -1,0 +1,94 @@
+body {
+  background-color: #eeb42e;
+  color: #1e1e1e; }
+
+.page-wrap {
+  padding-bottom: 2em; }
+
+#header {
+  padding-bottom: 2em;
+  padding-left: 0;
+  padding-right: 0; }
+
+h1, h2, h3, h4, h5 {
+  color: #115aa9; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0; }
+
+.row {
+  background-color: #fff; }
+
+.button {
+  background-color: #115aa9; }
+
+.bold {
+  font-weight: bold; }
+
+#hp-features {
+  text-align: center; }
+  #hp-features p {
+    text-align: left;
+    margin-top: 1em;
+    max-width: 80%;
+    margin-left: 4em; }
+  #hp-features h1 {
+    font-size: 2em;
+    line-height: 0;
+    margin-top: .8em;
+    margin-bottom: .75em; }
+
+#footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f0f0+50,cecece+100 */
+  background: #f0f0f0;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f0f0f0 50%, #cecece 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f0f0f0 50%, #cecece 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f0f0f0 50%, #cecece 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#cecece',GradientType=0 );
+  /* IE6-9 */
+  border-top: 1em solid #115aa9;
+  color: #115aa9;
+  min-height: 12em; }
+  #footer .columns, #footer .column {
+    min-height: 12em; }
+  #footer .logo {
+    padding-top: 2em;
+    padding-left: 2em; }
+  #footer .shim {
+    margin-left: 1.4em; }
+  #footer a {
+    color: #115aa9; }
+  #footer a:hover {
+    color: navy;
+    text-decoration: underline; }
+
+@media only screen {
+  #hp-features p {
+    max-width: 100%;
+    margin-left: 1em; }
+  #hp-features .columns, #hp-features .column {
+    margin-bottom: 2em; }
+
+  .button {
+    float: right; }
+
+  .address {
+    padding-left: 4em;
+    text-align: left; }
+
+  #footer .logo {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1em; }
+    #footer .logo img {
+      max-width: 75%; }
+
+  /* END FOOTER*/ }
+/*END MOBILE*/
